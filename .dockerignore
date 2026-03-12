@@ -1,0 +1,17 @@
+# Git
+.git
+.gitignore
+
+# Локальное окружение
+.venv
+venv
+.env
+__pycache__
+*.pyc
+
+# IDE
+.idea
+.vscode
+
+# README (не нужен в образе)
+README.md

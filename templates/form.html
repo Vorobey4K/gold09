@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>📚 Создание группы студентов</h1>
+    
+    <form method="POST">
+        <div id="students-container">
+            <div class="student-card">
+                <div class="student-header">  
+                    <h3>Студент #1</h3>
+                </div>
+                <input type="text" name="name_0" placeholder="Имя студента" required>
+                <input type="number" name="age_0" placeholder="Возраст" required>
+                <input type="email" name="email_0" placeholder="Email" required>
+            </div>
+        </div>
+        
+        <div style="margin-top: 20px;">
+            <button type="button" id="addStudent" class="btn-add">➕ Добавить студента</button>
+            <button type="submit" class="btn-save">💾 Сохранить группу</button>
+        </div>
+    </form>
+{% endblock %}
