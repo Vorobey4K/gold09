@@ -82,7 +82,7 @@ DATABASE_URL=
 
 ---
 
-### Запуск контейнеров
+### 3. Запуск контейнеров
 
 ```bash
 docker compose up --build
